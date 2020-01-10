@@ -18,7 +18,7 @@ def define_model():
      return model
  
 seed = 4
-#filename = 'AFF11-2/AFF11-FCred_train.csv'
+#filename = 'AFF11-2/AFF11-LCred_train.csv'
 #label = 'AFF11-2/train.csv'
 dataset = numpy.loadtxt("AFF11-2/AFF11-LCred_train.csv", delimiter=",")
 X = dataset[:,0:8]
